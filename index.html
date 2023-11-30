@@ -10,18 +10,18 @@
   </head>
   <body>
     <nav id="desktop-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Jerry França</div>
       <div>
         <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#experience">Experiência</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
         </ul>
       </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">John Doe</div>
+      <div class="logo">Jerry França</div>
       <div class="hamburger-menu">
         <div class="hamburger-icon" onclick="toggleMenu()">
           <span></span>
@@ -38,16 +38,20 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img
+          class="borded"
+          src="./assets/logo.jpeg"
+          alt="John Doe profile picture"
+        />
       </div>
       <div class="section__text">
-        <p class="section__text__p1">Hello, I'm</p>
-        <h1 class="title">John Doe</h1>
-        <p class="section__text__p2">Frontend Developer</p>
+        <p class="section__text__p1">Oi, eu sou</p>
+        <h1 class="title">Jerry França</h1>
+
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/curriculo.pdf')"
           >
             Download CV
           </button>
@@ -56,12 +60,18 @@
           </button>
         </div>
         <div id="socials-container">
-          <img
-            src="./assets/linkedin.png"
-            alt="My LinkedIn profile"
-            class="icon"
-            onclick="location.href='https://linkedin.com/'"
-          />
+          <a
+            href="https://www.linkedin.com/in/jerry-fran%C3%A7a-5b320ab6/"
+            target="_blank"
+          >
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+          </a>
+
           <img
             src="./assets/github.png"
             alt="My Github profile"
@@ -72,12 +82,11 @@
       </div>
     </section>
     <section id="about">
-      <p class="section__text__p1">Get To Know More</p>
-      <h1 class="title">About Me</h1>
+      <h1 class="title" style="margin-bottom: 2rem">Sobre mim</h1>
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/profile-photo.jpeg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -90,7 +99,7 @@
                 alt="Experience icon"
                 class="icon"
               />
-              <h3>Experience</h3>
+              <h3>Experiência</h3>
               <p>2+ years <br />Frontend Development</p>
             </div>
             <div class="details-container">
@@ -99,18 +108,26 @@
                 alt="Education icon"
                 class="icon"
               />
-              <h3>Education</h3>
+              <h3>Educação</h3>
               <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
             </div>
           </div>
           <div class="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+              Profissional qualificado, detentor de uma formação em Ciências
+              Contábeis e pós-graduação em Gestão Financeira e Gestão da
+              Qualidade. Destaca-se pela habilidade distintiva em mapeamento de
+              processos, enriquecendo a compreensão dos fluxos operacionais.
+            </p>
+            <br />
+            <p>
+              O conhecimento sólido em SQL Server, combinado com a proficiência
+              em ferramentas como Power BI, Excel, Data Studio e Pentaho,
+              amplifica a capacidade de analisar dados de maneira estratégica. A
+              competência em SQL Server permite a gestão eficiente de grandes
+              volumes de informações, enquanto as habilidades avançadas em Power
+              BI, Excel e outras ferramentas garantem a criação de relatórios
+              precisos e visualizações impactantes.
             </p>
           </div>
         </div>
@@ -123,12 +140,11 @@
       />
     </section>
     <section id="experience">
-      <p class="section__text__p1">Explore My</p>
-      <h1 class="title">Experience</h1>
+      <h1 class="title" style="margin-top: 2rem">Experiência</h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Analista de Qualidade</h2>
             <div class="article-container">
               <article>
                 <img
@@ -137,8 +153,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
+                  <h3>Power BI</h3>
                 </div>
               </article>
               <article>
@@ -148,8 +163,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
+                  <h3>Excel Avançado</h3>
                 </div>
               </article>
               <article>
@@ -159,8 +173,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
+                  <h3>MySQL</h3>
                 </div>
               </article>
               <article>
@@ -170,8 +183,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
+                  <h3>LookerStudio</h3>
                 </div>
               </article>
               <article>
@@ -181,8 +193,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
+                  <h3>SQL Server</h3>
                 </div>
               </article>
               <article>
@@ -192,14 +203,13 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
+                  <h3>Pentaho</h3>
                 </div>
               </article>
             </div>
           </div>
           <div class="details-container">
-            <h2 class="experience-sub-title">Frontend Development</h2>
+            <h2 class="experience-sub-title">Analista Administrativo</h2>
             <div class="article-container">
               <article>
                 <img
@@ -208,8 +218,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
+                  <h3>Excel Avançado</h3>
                 </div>
               </article>
               <article>
@@ -219,8 +228,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Power BI</h3>
                 </div>
               </article>
               <article>
@@ -230,8 +238,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
+                  <h3>Power Point</h3>
                 </div>
               </article>
               <article>
@@ -241,8 +248,7 @@
                   class="icon"
                 />
                 <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
+                  <h3>LookerStudio</h3>
                 </div>
               </article>
             </div>
@@ -257,19 +263,22 @@
       />
     </section>
     <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
+      <h1 class="title" style="margin-bottom: 2rem; margin-top: 2rem">
+        Projetos
+      </h1>
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="article-container-image">
               <img
-                src="./assets/project-1.png"
+                src="./assets/projeto1.jpeg"
                 alt="Project 1"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
+            <h2 class="experience-sub-title project-title">
+              Análise de Pessoas
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -277,23 +286,25 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+              <a
+                href="https://app.powerbi.com/view?r=eyJrIjoiYTY2YTVjMDUtMDRkNS00M2Q2LWI0MzktN2E0ZTQxZDkxMjg4IiwidCI6IjgyNjQyYTY0LTJhNmQtNDk4ZC1iNGI3LTlhMWVhMWQxNDU2ZiJ9"
+                target="_blank"
               >
-                Live Demo
-              </button>
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
             </div>
           </div>
           <div class="details-container color-container">
-            <div class="article-container">
+            <div class="article-container-image">
               <img
-                src="./assets/project-2.png"
+                src="./assets/projeto2.jpeg"
                 alt="Project 2"
                 class="project-img"
               />
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <h2 class="experience-sub-title project-title">
+              Análise de Acidentes
+            </h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
@@ -301,36 +312,12 @@
               >
                 Github
               </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+              <a
+                href="https://app.powerbi.com/view?r=eyJrIjoiMTIyZGE3ZmYtYzg2NS00YmQ4LWE5YjUtNzM3NjIyYmJjZDlhIiwidCI6IjgyNjQyYTY0LTJhNmQtNDk4ZC1iNGI3LTlhMWVhMWQxNDU2ZiJ9"
+                target="_blank"
               >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
+                <button class="btn btn-color-2 project-btn">Live Demo</button>
+              </a>
             </div>
           </div>
         </div>
@@ -343,8 +330,9 @@
       />
     </section>
     <section id="contact">
-      <p class="section__text__p1">Get in Touch</p>
-      <h1 class="title">Contact Me</h1>
+      <h1 class="title" style="margin-bottom: 2rem; margin-top: 2rem">
+        Contato
+      </h1>
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -352,7 +340,9 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p>
+            <a href="mailto:examplemail@gmail.com">jerrylei2017@gmail.com</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -360,7 +350,13 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/jerry-fran%C3%A7a-5b320ab6/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
@@ -368,14 +364,13 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#experience">Experiência</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contatos</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
   </body>
