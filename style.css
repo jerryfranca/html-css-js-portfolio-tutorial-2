@@ -461,7 +461,7 @@ footer p {
   scroll-snap-type: unset;
 }
 
-.galerry li {
+.gallery li {
   scroll-snap-align: center;
   display: inline-block;
   border-radius: 3px;
